@@ -1,0 +1,18 @@
+[package]
+name = "ipify_api"
+version = "1.0.0"
+authors = ["Faizaan <aulisius7@gmail.com>"]
+repository = "https://github.com/aulisius/ipify-rs.git"
+homepage = "https://github.com/aulisius/ipify-rs.git"
+documentation = "https://docs.rs/ipify_api/"
+readme = "README.md"
+description = "ipify client"
+keywords = ["ipify", "hyper", "future"]
+license = "MIT"
+exclude = [
+    "tests/*"
+]
+
+[dependencies]
+hyper = "0.12"
+
